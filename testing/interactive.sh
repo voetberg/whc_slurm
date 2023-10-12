@@ -1,0 +1,1 @@
+srun --unbuffered --pty -A fwk --partition=gpu_gce --gres=gpu:v100:1 --qos=test --nodes=1 --time=01:00:00 --ntasks-per-node=4 /bin/bash
